@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+
+*{
+    font-family: "Thasadith", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(3, 3, 22);
+}
+
+h3{
+    color: white;
+}
+
+button{
+    background-color: black;
+    outline: yellow;
+    color: yellow;
+}
+
+.bottom{
+    margin-top: 20px;
+}
+
+i{
+    margin-top: 5px;
+    color: yellow;
+}
+
+img{
+    width: 20px;
+}
+
+hr{
+    width: 180px;
+    border-color: yellow;
+}
+
+p{
+    font-size: 10px;
+    display: inline;
+    color: white;
+}
+
+.top{
+    width: 150px;
+    margin-left: 40px;
+    
+}
+
+.bottom{
+    width: 300px;
+    margin-left: 40px;
+}
+
+input{
+    width: 40px;
+}
+
+.div1{
+    margin-top: 30px;
+    margin-left: 20px;
+    background: url(./purple\ bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.div-img img{
+    width: 300px;
+    float: right;
+    margin-top: -210px;
+    margin-right: 40px;
+}
+
+
+@media only screen and (max-width:600px) {
+    input{
+        width: 20px;
+    }
+
+    .top{
+        width: 110px;
+    }
+
+  .div-img img{
+    width: 200px;
+  }
+
+  .div1{
+    margin-left: 10px;
+    background-size: 300px;
+  }
+}
